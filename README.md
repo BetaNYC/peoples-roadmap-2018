@@ -11,7 +11,7 @@ Four years later, we are now in the process of updating this document. This is a
 - Define concepts and proposals on the future state of civic technology in NYC.
 
 ## How to use this repo
-Until we start writing everything as markdown files, we are using this [repo's issues](https://github.com/BetaNYC/ops-roadmap/issues) issues section to track and monitor tasks. Please be aware that a majority of us are using waffle.io to access these tasks. This means issues/tasks will have three primary flags: Backlog, Ready, In Progress, and Dones.
+Until we start writing everything as markdown files, we are using this [repo's issues](https://github.com/BetaNYC/ops-roadmap/issues) issues section to track and monitor tasks. Please be aware that a majority of us are using waffle.io to access these tasks. This means issues/tasks will have three primary flags: Backlog, In Progress, and Dones.
 
 [![Stories in Ready](https://badge.waffle.io/BetaNYC/ops-roadmap.png?label=ready&title=Ready)](http://waffle.io/BetaNYC/ops-roadmap)
 
