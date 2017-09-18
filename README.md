@@ -13,6 +13,8 @@ Four years later, we are now in the process of updating this document. This is a
 ## How to use this repo
 Until we start writing everything as markdown files, we are using this [repo's issues](https://github.com/BetaNYC/ops-roadmap/issues) issues section to track and monitor tasks. Please be aware that a majority of us are using waffle.io to access these tasks. This means issues/tasks will have three primary flags: Backlog, Ready, In Progress, and Dones.
 
+[![Stories in Ready](https://badge.waffle.io/BetaNYC/ops-roadmap.png?label=ready&title=Ready)](http://waffle.io/BetaNYC/ops-roadmap)
+
 ## How to communicate with the team
 
 You can get in touch with the team via a github issue or you join BetaNYC's slack at http://slack.beta.nyc and ping team members.
