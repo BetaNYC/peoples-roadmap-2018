@@ -16,6 +16,7 @@ Until we start writing everything as markdown files, we are using this [repo's i
 ## How to communicate with the team
 
 You can get in touch with the team via a github issue or you join BetaNYC's slack at http://slack.beta.nyc and ping team members.
+
 Repo Participants
 
 - Noel @noneck
