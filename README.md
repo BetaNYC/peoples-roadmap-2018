@@ -24,6 +24,7 @@ Repo Participants
 - Noel @noneck
 - Lauren @lbrennee
 - Farheen @fma2
+- Ashley @ashleycortez
 - If you want to participate in the day to day planning of this group, open an issue and assign it to @noneck
 
 ## Links to Relevant Google Docs
