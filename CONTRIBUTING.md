@@ -10,7 +10,7 @@ This document is a set of guidelines for contributing to the People's Roadmap 20
 * [What we're working on](#what-were-working-on)
 * [How to submit changes](#how-to-submit-changes)
 * [How to report bugs](#how-to-report-bugs)
-* [Communication channels](#communication-channels)
+* [Beyond GitHub](#beyond-github)
 
 ## Participation guidelines
 
@@ -34,6 +34,20 @@ First time contributing to open source? Check out this *free* series, [How to Co
 
 Notice a mistake? Please file any bugs, requests, or questions in our [issue tracker](https://github.com/BetaNYC/peoples-roadmap-2018/issues/new)!
 
-## Communication channels
+## Beyond GitHub
 
-Feel free to reach out on our [Slack group](http://slack.beta.nyc/) in the #peoples-roadmap-2018 channel.
+### Online Discussion Forum: Talk.Beta.NYC
+
+Conversations around this are contained in the People’s Roadmap section (https://talk.beta.nyc/c/roadmap)
+
+This is the major online communications channel for the BetaNYC community. Anyone can create an account and join, which will allow you to post and reply to posts. 
+
+### Real-time Communication: BetaNYC’s Slack Channel
+
+This is the most direct way to reach out to the Roadmap facilitators. 
+
+To get an invite to join the Slack, go to < http://slack.beta.nyc >. Add your email and then press “Get My Invite”. After you send out your request, someone will accept it. Afterwards, you will want to login to < https://betanyc.slack.com > with your email. After creating and entering a password, you will be taken to the BetaNYC Slack!
+
+### Weekly Check-In Calls
+
+Weekly check-in calls occur on Mondays at 7PM ET. Reach out to us on Slack for the details!
