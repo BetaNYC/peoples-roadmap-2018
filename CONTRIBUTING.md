@@ -2,11 +2,9 @@
 
 Thank you for your interest in contributing to the People's Roadmap 2018 :tada:! 
 
-The People's Roadmap is both a visioning document to help guide NYC’s digital future as well as a framework for other community-sourced policy documents to use.
+The People's Roadmap is both a visioning document to help guide NYC’s digital future as well as a framework for other organizations to develop community-sourced policy documents in their communities.
 
-This documents is a set of guidelines for contributing to the People's Roadmap 2018 on GitHub. These are guidelines, not rules. This guide is meant to make it easy for you to get involved.
-
-If your guide is long, consider adding a table of contents.
+This document is a set of guidelines for contributing to the People's Roadmap 2018 on GitHub. These are guidelines, not rules. This guide is meant to make it easy for you to get involved.
 
 * [Participation guidelines](#participation-guidelines)
 * [What we're working on](#what-were-working-on)
