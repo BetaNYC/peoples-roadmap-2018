@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beta NYC Concept Extraction</title>
+    <style>
+        table, th, td
+        {
+            margin:10px 0;
+            border:solid 1px #333;
+            padding:2px 4px;
+            font:15px Verdana;
+        }
+        th {
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" onclick="CreateTableFromJSON()" value="Create Table From JSON" />
+    <div id="showData"></div>
+</body>
+
+<script>
+    function CreateTableFromJSON() {
+        var peoplesData = [
+            {
+              "concept": "LinkNYC",
+              "occurrences": 16,
+            },
+            {
+              "concept": "Lack",
+              "occurrences": 17
+            },
+            {
+              "concept": "wifi",
+              "occurrences": 20
+            },
+            {
+              "concept": "data",
+              "occurrences": 25
+            },
+            {
+              "concept": "public",
+              "occurrences": 27
+            },
+            {
+              "concept": "city",
+              "occurrences": 19
+            },
+            {
+              "concept": "resources",
+              "occurrences": 19
+            },
+            {
+              "concept": "education",
+              "occurrences": 21
+            },
+            {
+              "concept": "NYC",
+              "occurrences": 16
+            },
+            {
+              "concept": "access",
+              "occurrences": 20
+            },
+            {
+              "concept": "digital",
+              "occurrences": 15
+            },
+            {
+              "concept": "free",
+              "occurrences": 12
+            },
+            {
+              "concept": "people",
+              "occurrences": 18
+            },
+            {
+              "concept": "subway",
+              "occurrences": 8
+            },
+            {
+              "concept": "use",
+              "occurrences": 12
+            },
+            {
+              "concept": "service",
+              "occurrences": 16
+            },
+            {
+              "concept": "t",
+              "occurrences": 11
+            },
+            {
+              "concept": "community",
+              "occurrences": 26
+            },
+            {
+              "concept": "Fiber",
+              "occurrences": 6
+            },
+            {
+              "concept": "infrastructure",
+              "occurrences": 10
+            },
+            {
+              "concept": "internet",
+              "occurrences": 13
+            },
+            {
+              "concept": "spaces",
+              "occurrences": 9
+            },
+            {
+              "concept": "Gaps",
+              "occurrences": 2
+            },
+            {
+              "concept": "high",
+              "occurrences": 7
+            },
+            {
+              "concept": "IoT",
+              "occurrences": 2
+            },
+            {
+              "concept": "low",
+              "occurrences": 8
+            },
+            {
+              "concept": "mobile",
+              "occurrences": 5
+            },
+            {
+              "concept": "data standards",
+              "occurrences": 4
+            },
+            {
+              "concept": "Fiber Map:",
+              "occurrences": 1
+            },
+            {
+              "concept": "Force LinkNYC",
+              "occurrences": 1
+            },
+            {
+              "concept": "make",
+              "occurrences": 9
+            },
+            {
+              "concept": "need",
+              "occurrences": 8
+            },
+            {
+              "concept": "new",
+              "occurrences": 8
+            },
+            {
+              "concept": "common",
+              "occurrences": 5
+            },
+            {
+              "concept": "etc.",
+              "occurrences": 9
+            },
+            {
+              "concept": "mesh",
+              "occurrences": 4
+            },
+            {
+              "concept": "technology",
+              "occurrences": 7
+            },
+            {
+              "concept": "those",
+              "occurrences": 4
+            },
+            {
+              "concept": "actions)",
+              "occurrences": 2
+            },
+            {
+              "concept": "businesses,",
+              "occurrences": 4
+            }
+        ]
+
+
+        // EXTRACT VALUE FOR HTML HEADER.
+        // ('Concept' and 'Occurences')
+        var col = [];
+        for (var i = 0; i < peoplesData.length; i++) {
+            for (var key in peoplesData[i]) {
+                if (col.indexOf(key) === -1) {
+                    col.push(key);
+                }
+            }
+        }
+
+        // CREATE DYNAMIC TABLE.
+        var table = document.createElement("table");
+
+        // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+
+        var tr = table.insertRow(-1);                   // TABLE ROW.
+
+        for (var i = 0; i < col.length; i++) {
+            var th = document.createElement("th");      // TABLE HEADER.
+            th.innerHTML = col[i];
+            tr.appendChild(th);
+        }
+
+        // ADD JSON DATA TO THE TABLE AS ROWS.
+        for (var i = 0; i < peoplesData.length; i++) {
+
+            tr = table.insertRow(-1);
+
+            for (var j = 0; j < col.length; j++) {
+                var tabCell = tr.insertCell(-1);
+                tabCell.innerHTML = peoplesData[i][col[j]];
+            }
+        }
+
+        // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+        var divContainer = document.getElementById("showData");
+        divContainer.innerHTML = "";
+        divContainer.appendChild(table);
+    }
+</script>
+</html>
