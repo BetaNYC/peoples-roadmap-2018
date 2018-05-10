@@ -1,0 +1,164 @@
+{
+  "concepts": [
+    {
+      "concept": "LinkNYC",
+      "occurrences": 16
+    },
+    {
+      "concept": "Lack",
+      "occurrences": 17
+    },
+    {
+      "concept": "wifi",
+      "occurrences": 20
+    },
+    {
+      "concept": "data",
+      "occurrences": 25
+    },
+    {
+      "concept": "public",
+      "occurrences": 27
+    },
+    {
+      "concept": "city",
+      "occurrences": 19
+    },
+    {
+      "concept": "resources",
+      "occurrences": 19
+    },
+    {
+      "concept": "education",
+      "occurrences": 21
+    },
+    {
+      "concept": "NYC",
+      "occurrences": 16
+    },
+    {
+      "concept": "access",
+      "occurrences": 20
+    },
+    {
+      "concept": "digital",
+      "occurrences": 15
+    },
+    {
+      "concept": "free",
+      "occurrences": 12
+    },
+    {
+      "concept": "people",
+      "occurrences": 18
+    },
+    {
+      "concept": "subway",
+      "occurrences": 8
+    },
+    {
+      "concept": "use",
+      "occurrences": 12
+    },
+    {
+      "concept": "service",
+      "occurrences": 16
+    },
+    {
+      "concept": "t",
+      "occurrences": 11
+    },
+    {
+      "concept": "community",
+      "occurrences": 26
+    },
+    {
+      "concept": "Fiber",
+      "occurrences": 6
+    },
+    {
+      "concept": "infrastructure",
+      "occurrences": 10
+    },
+    {
+      "concept": "internet",
+      "occurrences": 13
+    },
+    {
+      "concept": "spaces",
+      "occurrences": 9
+    },
+    {
+      "concept": "Gaps",
+      "occurrences": 2
+    },
+    {
+      "concept": "high",
+      "occurrences": 7
+    },
+    {
+      "concept": "IoT",
+      "occurrences": 2
+    },
+    {
+      "concept": "low",
+      "occurrences": 8
+    },
+    {
+      "concept": "mobile",
+      "occurrences": 5
+    },
+    {
+      "concept": "data standards",
+      "occurrences": 4
+    },
+    {
+      "concept": "Fiber Map:",
+      "occurrences": 1
+    },
+    {
+      "concept": "Force LinkNYC",
+      "occurrences": 1
+    },
+    {
+      "concept": "make",
+      "occurrences": 9
+    },
+    {
+      "concept": "need",
+      "occurrences": 8
+    },
+    {
+      "concept": "new",
+      "occurrences": 8
+    },
+    {
+      "concept": "common",
+      "occurrences": 5
+    },
+    {
+      "concept": "etc.",
+      "occurrences": 9
+    },
+    {
+      "concept": "mesh",
+      "occurrences": 4
+    },
+    {
+      "concept": "technology",
+      "occurrences": 7
+    },
+    {
+      "concept": "those",
+      "occurrences": 4
+    },
+    {
+      "concept": "actions)",
+      "occurrences": 2
+    },
+    {
+      "concept": "businesses,",
+      "occurrences": 4
+    }
+  ]
+}
