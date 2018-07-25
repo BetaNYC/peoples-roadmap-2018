@@ -15,16 +15,34 @@ footer {
     color: white;
 }
 
+.bodytext {
+    border: 1px solid #399fd3;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 1%
+}
 
-.bodytext,
-.jumbotron {
-    padding-left: 15%;
-    padding-right: 15%
+.polis {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .jumbotron,
 h1 {
     font-family: 'Open+Sans', sans-serif;
+}
+
+.jumbotron {
+    background: url('images/hero-image.jpg') no-repeat center center;
+    padding-left: 15%;
+    padding-right: 15%
 }
 
 p { 
