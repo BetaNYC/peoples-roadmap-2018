@@ -22,12 +22,17 @@ footer {
     padding-right: 15%
 }
 
+.jumbotron,
+h1 {
+    font-family: 'Open+Sans', sans-serif;
+}
+
 p { 
-  font-family: Nunito; 
+  font-family: 'Nunito', sans-serif; 
   font-size: 14px; 
   font-style: normal; 
   font-variant: normal; 
-  font-weight: 200; 
+  font-weight: 100; 
   line-height: 20px; 
 } 
 
