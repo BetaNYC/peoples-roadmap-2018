@@ -1,0 +1,37 @@
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 110%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar,
+footer {
+    background-color: #0066CC;
+    box-shadow: 5px 10px 18px #888888;
+    border: 0px;
+    color: white;
+}
+
+
+.bodytext,
+.jumbotron {
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+p { 
+  font-family: Nunito; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 200; 
+  line-height: 20px; 
+} 
+
+footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
