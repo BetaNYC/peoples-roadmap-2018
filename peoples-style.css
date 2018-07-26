@@ -40,9 +40,10 @@ h1 {
 }
 
 .jumbotron {
+    padding-top: 30%;
     background: url('images/hero-image.jpg') no-repeat center center;
-    padding-left: 15%;
-    padding-right: 15%
+    background-size: 100%;
+    text-align: right;
 }
 
 p { 
@@ -53,6 +54,12 @@ p {
   font-weight: 100; 
   line-height: 20px; 
 } 
+
+#title {
+    padding-right: 30%;
+    font-size: 4em;
+    margin-bottom: 20%;
+}
 
 footer {
     padding-top: 5%;
