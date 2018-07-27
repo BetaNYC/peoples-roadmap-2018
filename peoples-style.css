@@ -16,8 +16,9 @@ footer {
 }
 
 .bodytext {
-    border: 1px solid #399fd3;
+    border: 2px solid #399fd3;
     border-radius: 5px;
+    background: white;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
@@ -27,12 +28,12 @@ footer {
     padding-top: 1%
 }
 
-.polis {
+/*.polis {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
-}
+}*/
 
 .jumbotron,
 h1 {
@@ -46,7 +47,7 @@ h1 {
     text-align: right;
 }
 
-p { 
+p, li, ul { 
   font-family: 'Nunito', sans-serif; 
   font-size: 14px; 
   font-style: normal; 
@@ -59,6 +60,10 @@ p {
     padding-right: 30%;
     font-size: 4em;
     margin-bottom: 20%;
+}
+
+#signup, #FAQ {
+    margin-bottom: 5%;
 }
 
 footer {
